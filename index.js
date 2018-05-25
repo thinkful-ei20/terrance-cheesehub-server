@@ -22,7 +22,7 @@ app.use(
   })
 );
 
-app.get('/api/cheese', (req, res) => {
+app.get('/api/cheeses', (req, res) => {
   const data = [
     "Bath Blue",
     "Barkham Blue",
